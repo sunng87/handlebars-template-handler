@@ -1,6 +1,6 @@
 [package]
 name = "handlebars-template-handler"
-version = "0.1.0"
+version = "0.1.1-pre"
 authors = ["Ning Sun <sunng@about.me>"]
 description = "Handlebars templating middleware for Iron."
 license = "MIT"
