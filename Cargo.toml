@@ -2,6 +2,13 @@
 name = "handlebars-template-handler"
 version = "0.1.0"
 authors = ["Ning Sun <sunng@about.me>"]
+description = "Handlebars templating middleware for Iron."
+license = "MIT"
+keywords = ["handlebars", "templating", "web", "webdev", "iron"]
+homepage = "https://github.com/sunng87/handlebars-template-handler"
+repository = "https://github.com/sunng87/handlebars-template-handler"
+documentation = "http://sunng87.github.io/handlebars-template-handler/"
+
 
 [dependencies]
 handlebars-iron = {version = "^0.17.0", features=["serde_type"], default-feature=false}
@@ -11,3 +18,7 @@ serde_json = "^0.7.0"
 
 [dev-dependencies]
 router = "^0.2.0"
+
+[package.metadata.release]
+sign-commit = true
+upload-doc = true
