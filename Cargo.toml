@@ -1,0 +1,13 @@
+[package]
+name = "handlebars-template-handler"
+version = "0.1.0"
+authors = ["Ning Sun <sunng@about.me>"]
+
+[dependencies]
+handlebars-iron = {version = "^0.17.0", features=["serde_type"], default-feature=false}
+iron = "^0.4.0"
+params = "^0.3.0"
+serde_json = "^0.7.0"
+
+[dev-dependencies]
+router = "^0.2.0"
